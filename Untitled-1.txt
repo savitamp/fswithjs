@@ -1,0 +1,42 @@
+all non primitive data types are objects
+array 
+abjects
+functions
+date
+math
+regexp(Regular Expression)
+json
+
+
+primitive data types
+1>string :use double coat,singal coat, backtick
+var str="hi';
+    name   value
+
+
+    interpolation->${} allowing embedded expression
+
+    template liter are string literals allowimg embedded expression you can use multi-line string and string interpolation features with them they were called "template 
+    string" in prior editions of the es2015 specification
+
+    syntax 
+    `string text`
+    `string text line1
+    string text line2`
+
+    `string text ${expression} string text`
+    tag `string text ${expression} string text`
+
+    js 3 types of quotes
+    1>double quotes:"hello"
+    2>single quotes:'hello'
+    3>backticks:`hello'
+
+    backticks are extended functionality quotes they allow us to embed variables and expressions into a string by wrapping them in ${..}
+
+    let name="john";
+    //embedded a variables
+    alert(`hello , ${name}!);
+    the expression inside ${...}is evaluated and the result becomes a part of the string.we can put anything there a variable like name or an arthmatical expression
+    like 1+2 or something more complex                              
+  checking datatype use typeof
