@@ -48,40 +48,57 @@
 //NON-PRimitive data types or object ref...
 
 
-let languages = ['java','nodejs',undefined,null,true,1];
-console.log(languages.length);
+// let languages = ['java','nodejs',undefined,null,true,1];
+// console.log(languages.length);
 
-var array = ['java','phython','node'];
+// var array = ['java','phython','node'];
 
-var array1 = new Array('java','node','net');
-var text = "savi";
+// var array1 = new Array('java','node','net');
+// var text = "savi";
 
-console.log(array);
-console.log(array1);
+// console.log(array);
+// console.log(array1);
 
-//ES6 [],new array,array.ff,array
-var array3 = Array.of('java','note','js');
-var array4 = Array(50);
-console.log(array3);
-console.log(array4);
-console.log(Array.isArray(array3));// checking is this array or what using array.isarray
-console.log(Array.isArray(text));
-console.log(typeof array,typeof array1,typeof text);
+// //ES6 [],new array,array.ff,array
+// var array3 = Array.of('java','note','js');
+// var array4 = Array(50);
+// console.log(array3);
+// console.log(array4);
+// console.log(Array.isArray(array3));// checking is this array or what using array.isarray
+// console.log(Array.isArray(text));
+// console.log(typeof array,typeof array1,typeof text);
 
 
 //converting string to array
 
-var str = "hello students";
-var strwitharr = str.split('') //it will split letters if give one space it will show one word and two space it will take whole sentence as array ES5
+// var str = "hello students";
+// var strwitharr = str.split('') //it will split letters if give one space it will show one word and two space it will take whole sentence as array ES5
 
+// console.log(strwitharr);
+
+// var e6way = Array.from(str); //ES6
+// console.log(e6way);
+
+// let[...spread] = str;
+// console.log(spread.toString(""));
+// console.log(spread.join(''));
+
+//array concatination
+let array1 = ['java','node','js','phy'];
+let array2 = ['nn','mhj','kht','hyg'];
+let concatarray = array1.concat(array2,'savi');
+console.log(concatarray);  //way of es5
+
+let totalArray = [...array1, ...array2, 'hii',true];
+console.log(totalArray);
+
+var str = 'savita';
+var strwitharr = [...str].reverse().join('');
 console.log(strwitharr);
 
-var e6way = Array.from(str); //ES6
-console.log(e6way);
 
-let[...spread] = str;
-console.log(spread.toString(""));
-console.log(spread.join(''));
+
+
 
 
 

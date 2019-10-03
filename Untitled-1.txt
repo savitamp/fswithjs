@@ -102,6 +102,14 @@ Array.isArray(undefined); //false
 if the value is an array,true is returned,otherwise false is returned
 
 
+array.from() method creates a new shallow-copied array instance fro an array-like oriterable obj
+
+spread operator
+js ES6 introduced the spread operator.
+the syntax is three dots(..) followed by the array (or iterable)
+it extends the array into individual elements .so it can be used to expand the array in a places where zero or more elements are expected
+
+
 
 
 
