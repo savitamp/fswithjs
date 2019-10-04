@@ -111,7 +111,30 @@ it extends the array into individual elements .so it can be used to expand the a
 
 
 
+objects
+as we know from the chapter data types, seven data types in Javascript.
+six of them are called primitive,because there values contain only a single thing (be it a string or a number or whatever).
 
+
+in contrast,objects are used to store keyed collections of various data and more complex entities.
+in Javascript,objects penetrate almost every aspect of the language
+
+an object can be created with figure brackets{...} with an optional list of properties.A property is a "key : value" pair,and whre key is a string (almost
+called a "property name"),and value can be anything
+
+
+let user = new Object();  //"object constructor" syntax
+let user = {}; //"object literal" syntax
+
+usually,the figure brackets {...}are used.
+that declaration is called an object literal.
+
+Literals and propertieswe can immediately put some properties into{...} as "key:value" pairs
+
+let user={     //an object
+  name:"john",  //by key "name" store value "john"
+  age:30      //by key "age" store value 30
+};
 
 
 
