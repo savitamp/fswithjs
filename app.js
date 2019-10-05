@@ -13,7 +13,7 @@ let users = {
 // users.age
 // users.company
 // users.salary
-//console.log(users['name]);
+//console.log(users['name']);
 console.log(users.name);
 console.log(users.skills);
 
@@ -47,6 +47,111 @@ let newData = {
 }
 
 console.log(newData);
+
+//create mutiple object within an array
+
+var mulObject = [
+    {
+name : 'savita',
+age : 26,
+salary : 200000,
+gender : 'female',
+photo : 'https://cdn.pixabay.com/photo/2016/04/26/12/25/male-1354358_1280.png'
+},
+{
+name : 'manu',
+age : 6,
+salary : 200000,
+gender : 'female'
+},
+{
+name : 'mahi',
+age : 27,
+salary : 200000,
+gender : 'male'
+}
+]
+
+console.log(mulObject);
+
+//we can use reserve keyword for keys and should use key in single quote when using - space
+
+// let users2 = {
+//     'name-user' : 'savi',
+//     for : 'hey for',
+//     if : 'hey if',
+//     while : 'hey cond'
+// };
+// console.log(users2);
+
+
+// let users3 = {
+//     name : 'anu',
+//     age : 20,
+//     company : 'cgi',
+//     salary : 100000
+// };
+//  let me = Object.create(users3);   //copying objects from origin
+//  me.name = 'sneha';
+//  me.age = 29;
+//  company : 'cgi';
+//  salary :200;
+
+//  console.log(me);
+ 
+//convert array like object for iteration purpose
+
+let emp = {
+    id : 1,
+    'emp-name' : 'manoj',
+    'emp-age' : 20,
+    'emp-location' : 'bijapur'
+
+};
+// let empconvertasArray = Object.entries(emp);
+
+// empconvertasArray.forEach(element => {
+//     console.log(element);
+    
+// });
+
+//freez method should not change the origin value
+
+
+let checkandObject = Object.freeze(emp);
+
+emp['emp-name'] = 'sahi';
+console.log(emp);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

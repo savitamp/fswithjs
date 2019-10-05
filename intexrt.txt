@@ -1,4 +1,4 @@
-// //data types
+﻿// //data types
 var str = "savi";
 var str1 ='manu';
 var str2=`hi manu and savi`;//template string backtick we can add multiple lines(es6)  ${} this is data expression/interpolation
@@ -39,7 +39,7 @@ for(let i =0;i<10; i++){
 console.log(username);
 username ="shashi";
 var username;
-//variable voisting or swapping or exchanging
+//variable hoisting or swapping or exchanging
 console.log(username);
 let myVariable = 'Bob';
 myVariable = 'Steve';

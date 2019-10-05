@@ -137,10 +137,29 @@ let user={     //an object
 };
 
 
+{
+  console.log('hello'); //block of code...
+
+}//not object this is IIFE IN ES6 this function expression
+
+var obj = {
+  key : value;
+} //this is obj
 
 
+Reserved words are allowed as property names a variable cannot have a name equal to one of language-reserved words like "for"
+,"let","return" etc.
 
 
+but for an object property ,there,s no such restriction. any name is fine
+let obj ={
+  for:1,
+  let:2,
+  return:3
+};
+alert(obj.for + obj.let + obj.return);
+
+Assignment:
 
 
 
