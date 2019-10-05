@@ -123,6 +123,35 @@ let checkandObject = Object.freeze(emp);
 emp['emp-name'] = 'sahi';
 console.log(emp);
 
+//backtics imp here to add multiline  within a object we can creat function/method
+let emp1 = {
+    id : 1,
+    'emp-name' : 'manoj',
+    'emp-age' : 20,
+    'emp-location' : 'bijapur',
+    alldata(){
+        console.log(`${this['emp-name']} and 
+                    ${this['emp-location']}
+                    ${this['emp-age']}`);
+    
+    }
+};
+console.log(emp1.alldata);
+
+
+//key and value
+let student = {
+name : 'ravi',
+age : 56,
+salary : 10000
+};
+
+let ArrayValues = Object.values(student);
+let ArrayKeys = Object.keys(student);
+
+console.log(ArrayValues);
+console.log(ArrayKeys);
+
 
 
 
