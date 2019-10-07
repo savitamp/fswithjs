@@ -1,0 +1,52 @@
+//function syntax
+annonamus function function doesnt have a name its anonamus function
+(function--keyword ,()-parantheses,)
+ function(){
+     console.log('hiii);
+ }
+
+ functions are one of the fundamental building blocks in javascript.A function is a javascript procedure-a set of statements that 
+ performs a task or calculates a value.
+ to use a function,you must
+ define it somewhere in the scope from which you wish to call it.
+
+
+ javascript function syntax 
+
+ A javascript function is defined with the function keyword,followed by a name,followed by parantheses().
+ function names can contain letters,digits,underscores,and dollar signs (same rules as variables)
+
+
+ Anonymous functions
+
+  Anonymous functions are functions that are dynamically declared at runtime.they're called Anonymous 
+  functions because they arent given a name in the same way as normal functions.anonymous functions are 
+  declared using the function operator instead of the function declaration
+
+
+  function(){
+      alert('');
+  }
+
+* function expression
+
+A js function can also be defined using an expression.
+A function expression can be stored in a variable:
+After a function expression has been stored in a variable,the variable can be used as a function:
+
+exp:var x = function(){
+    console.log('hello x);
+}
+
+the function above is actually an anonymous function (a function without a name)
+
+functions stored in variables do not need function names.
+they are always
+invoked (called) using the variable name.
+
+//name : value
+let users = function(){
+    alert('hii);
+};//called
+
+users(); //calling function

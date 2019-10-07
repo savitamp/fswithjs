@@ -1,5 +1,5 @@
 
-//objects at the end of boject dont use semicolon only use colon and loct dont use any colon
+//objects at the end of boject dont use semicolon only use hypen and loct dont use any colon
 let users = {
     //key : value,
     //name = "savita",  //Uncaught SyntaxError: Invalid shorthand property initializer   if used = gives this error
@@ -124,33 +124,33 @@ emp['emp-name'] = 'sahi';
 console.log(emp);
 
 //backtics imp here to add multiline  within a object we can creat function/method
-let emp1 = {
-    id : 1,
-    'emp-name' : 'manoj',
-    'emp-age' : 20,
-    'emp-location' : 'bijapur',
-    alldata(){
-        console.log(`${this['emp-name']} and 
-                    ${this['emp-location']}
-                    ${this['emp-age']}`);
+// let emp1 = {
+//     id : 1,
+//     'emp-name' : 'manoj',
+//     'emp-age' : 20,
+//     'emp-location' : 'bijapur',
+//     alldata(){
+//         console.log(`${this['emp-name']} and 
+//                     ${this['emp-location']}
+//                     ${this['emp-age']}`);
     
-    }
-};
-console.log(emp1.alldata);
+//     }
+// };
+// console.log(emp1.alldata);
 
 
-//key and value
-let student = {
-name : 'ravi',
-age : 56,
-salary : 10000
-};
+// //key and value
+// let student = {
+// name : 'ravi',
+// age : 56,
+// salary : 10000
+// };
 
-let ArrayValues = Object.values(student);
-let ArrayKeys = Object.keys(student);
+// let ArrayValues = Object.values(student);
+// let ArrayKeys = Object.keys(student);
 
-console.log(ArrayValues);
-console.log(ArrayKeys);
+// console.log(ArrayValues);
+// console.log(ArrayKeys);
 
 
 
