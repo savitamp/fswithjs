@@ -50,3 +50,22 @@ let users = function(){
 };//called
 
 users(); //calling function
+
+anonymous function call that function immediately you getting error like uncaught syntaxerror:(this is local variable)
+
+ iife
+
+ data secure
+ immediately invoking page
+
+
+An IIFE (immediately Invoked Function Expression)
+is a javascript function that runs as soon as it is defined .
+
+(function(){
+    statements
+})();
+
+why do we use IIFE?
+the primary reason to use an IIFE is to obtain data privacy.
+because javascript's var scopes variables to their containing functions,any variables declared within the IIFE cannot be accessed by the outside world

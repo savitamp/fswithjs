@@ -72,7 +72,7 @@ gender : 'male'
 }
 ]
 
-console.log(mulObject);
+//console.log(mulObject);
 
 //we can use reserve keyword for keys and should use key in single quote when using - space
 
@@ -153,9 +153,18 @@ console.log(emp);
 // console.log(ArrayKeys);
 
 
+//IIFE immediately invoking function expression
+(function(){
+    console.log('hello');
+    alert(2+2);
+    var username = "savi";
+    var password = "123";//these two variables available in nearest scope function not available outside the scope
+
+    
+})();
 
 
-
+console.log(username,password);//this will show error username not defined
 
 
 
